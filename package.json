@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"jsdoc-to-markdown",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "jsdoc-to-markdown",
+    "description": "api documentation for [jsdoc-to-markdown (v3.0.0)](https://github.com/jsdoc2md/jsdoc-to-markdown#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-jsdoc-to-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsdoc-to-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown)",
     "devDependencies": {
-        "jsdoc-to-markdown": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "jsdoc-to-markdown": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-jsdoc-to-markdown",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-jsdoc-to-markdown",
+    "keywords": [
+        "documentation",
+        "jsdoc-to-markdown"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_jsdoc_to_markdown.js",
+    "name": "npmdoc-jsdoc-to-markdown",
+    "nameAlias": "npmdoc_jsdoc_to_markdown",
+    "nameOriginal": "npmdoc-jsdoc-to-markdown",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-jsdoc-to-markdown.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
