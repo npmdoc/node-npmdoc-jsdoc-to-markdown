@@ -1,9 +1,14 @@
-# api documentation for  [jsdoc-to-markdown (v3.0.0)](https://github.com/jsdoc2md/jsdoc-to-markdown#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsdoc-to-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsdoc-to-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown)
+# npmdoc-jsdoc-to-markdown
+
+#### api documentation for  [jsdoc-to-markdown (v3.0.0)](https://github.com/jsdoc2md/jsdoc-to-markdown#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsdoc-to-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsdoc-to-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown)
+
 #### Generates markdown API documentation from jsdoc annotated source code
 
-[![NPM](https://nodei.co/npm/jsdoc-to-markdown.png?downloads=true)](https://www.npmjs.com/package/jsdoc-to-markdown)
+[![NPM](https://nodei.co/npm/jsdoc-to-markdown.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/jsdoc-to-markdown)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-jsdoc-to-markdown_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-jsdoc-to-markdown/build/screenCapture.npmPackageListing.svg)
 
@@ -63,13 +68,11 @@
     "main": "lib/jsdoc-to-markdown.js",
     "maintainers": [
         {
-            "name": "75lb",
-            "email": "75pound@gmail.com"
+            "name": "75lb"
         }
     ],
     "name": "jsdoc-to-markdown",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jsdoc2md/jsdoc-to-markdown.git"
@@ -87,19 +90,6 @@
     "version": "3.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module jsdoc-to-markdown](#apidoc.module.jsdoc-to-markdown)
-1.  object <span class="apidocSignatureSpan">jsdoc-to-markdown.</span>_sendOptions
-1.  object <span class="apidocSignatureSpan">jsdoc-to-markdown.</span>_usage
-1.  string <span class="apidocSignatureSpan">jsdoc-to-markdown.</span>_interface
-
-
-
-# <a name="apidoc.module.jsdoc-to-markdown"></a>[module jsdoc-to-markdown](#apidoc.module.jsdoc-to-markdown)
 
 
 
