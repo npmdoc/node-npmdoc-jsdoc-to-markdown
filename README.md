@@ -1,6 +1,6 @@
 # npmdoc-jsdoc-to-markdown
 
-#### api documentation for  [jsdoc-to-markdown (v3.0.0)](https://github.com/jsdoc2md/jsdoc-to-markdown#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsdoc-to-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsdoc-to-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown)
+#### basic api documentation for  [jsdoc-to-markdown (v3.0.0)](https://github.com/jsdoc2md/jsdoc-to-markdown#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-jsdoc-to-markdown.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-jsdoc-to-markdown) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown.svg)](https://travis-ci.org/npmdoc/node-npmdoc-jsdoc-to-markdown)
 
 #### Generates markdown API documentation from jsdoc annotated source code
 
